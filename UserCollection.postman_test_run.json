@@ -1,0 +1,62 @@
+{
+	"id": "f67f125d-8250-4d82-8fd5-394da00dd223",
+	"name": "UserCollection",
+	"timestamp": "2021-05-06T13:49:24.473Z",
+	"collection_id": "988a8701-a507-46d6-b869-cf83b74ca625",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e01d72c8-652a-45a0-9c56-51e0c1596890",
+			"name": "localhost:8090/demo/all",
+			"url": "http://localhost:8090/demo/all",
+			"time": 22,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				22
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f1e083be-98fa-4e2f-b080-d874d14169b3",
+			"name": "localhost:8090/demo/firstUsers",
+			"url": "http://localhost:8090/demo/firstUsers",
+			"time": 21,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				21
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 43,
+	"collection": {
+		"requests": [
+			{
+				"id": "e01d72c8-652a-45a0-9c56-51e0c1596890",
+				"method": "GET"
+			},
+			{
+				"id": "f1e083be-98fa-4e2f-b080-d874d14169b3",
+				"method": "GET"
+			}
+		]
+	}
+}
