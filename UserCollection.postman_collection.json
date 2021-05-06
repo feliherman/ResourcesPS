@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "988a8701-a507-46d6-b869-cf83b74ca625",
+		"name": "UserCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8090/demo/all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8090/demo/all",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"demo",
+						"all"
+					]
+				},
+				"description": "All Users"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8090/demo/firstUsers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8090/demo/firstUsers",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"demo",
+						"firstUsers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
